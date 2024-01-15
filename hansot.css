@@ -26,7 +26,7 @@ header ul{
     border-bottom: solid 4px ;
 }
 .mainimg{
-    background: url(/이미지/hansot_main_bg.jpg) center;
+    background: url(img/hansot_main_bg.jpg) center;
     background-repeat: no-repeat;
     height: 600px;
     transition: 0.5s;
@@ -165,7 +165,7 @@ position: relative;
 
 }
 .box .bt{
-    background: url(/이미지/hansot_btn_link.png);
+    background: url(img/hansot_btn_link.png);
     display: inline-block;
     width: 20px;
     height: 20px;
