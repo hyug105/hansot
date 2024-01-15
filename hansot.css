@@ -1,0 +1,206 @@
+.wrap{
+    width: 100%;
+}
+
+.gnb{
+    width: 900px;
+    height: 60px;
+    margin: auto;
+    display: block;
+}
+header ul{
+    display: inline;
+}
+.gnb img{
+    height: 47px;
+    margin-top: 6px;
+}
+.gnb li{
+    padding: 20px;
+    float: right;
+    font-weight: 600;
+    
+}
+.gnb li:hover{
+    color: rgb(255, 217, 0);
+    border-bottom: solid 4px ;
+}
+.mainimg{
+    background: url(/이미지/hansot_main_bg.jpg) center;
+    background-repeat: no-repeat;
+    height: 600px;
+    transition: 0.5s;
+}
+.mainimg{
+    transition: 0.4s;
+}
+main{
+    overflow: hidden;
+    position: relative;
+}
+.mainimg:hover{
+transform: scale(1.1);
+}
+
+
+.maintextbox{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 370px;
+    height: 600px;
+    background-color:rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 0 32px;
+    transition: 0.4s;
+}
+
+.maintextbox h1{
+    padding-top: 70px;
+    font-size: 2.4rem;
+    line-height: 3rem;   
+}
+.line{
+    width: 40px;
+    border-bottom:  4px solid #fff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.maintextbox p{
+    line-height: 1.6rem;
+    margin-top: 35px;
+}
+button{
+    padding: 12px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 80px;
+    transition: 0.3s;
+
+
+}
+button:hover{
+    color: #000;
+    background-color: #fff;
+}
+section{
+    width: 100%;
+    justify-content: space-around;
+}
+.boxwrap{
+    width: 1000px;
+    height: 390px;
+    margin: 60px auto;
+    /* border: 1px solid gray; */
+    justify-content: space-between;
+    display: flex;
+}
+.boxwrap .box{
+    width: 310px;
+    height: 390px;
+  
+    float: left;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.box{
+    position: relative;
+}
+
+.box1{
+    background-color: rgb(255, 191, 0);
+}
+.box1 h1{
+    font-size: 28px;
+    line-height: 38px;
+}
+.box1 .line2{
+    width: 32px;
+    border-bottom: 4px #000 solid;
+    margin: 20px 0;
+}
+.box1 p{
+    font-size: 13px;
+    line-height: 1.4rem;
+}
+.box img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box img{
+    width: 100%;
+    display: block;
+}
+.box2, .box3{
+    background-color: rgb(231, 231, 231);
+    border-bottom: 4px #000 solid;
+}
+.box2:hover .bt{
+    background-position: -20px 0;   
+    transition: 0.3s;
+}
+.box3:hover .bt{
+    background-position: -20px 0;   
+    transition: 0.3s;
+}
+.box2:hover {
+    border-bottom: 4px solid rgb(255, 191, 0);
+    transition: 0.1s;
+}
+.box3:hover {
+    border-bottom: 4px solid rgb(255, 191, 0);
+    transition: 0.1s;
+}
+.box .textbox{
+    margin-top: 200px;
+}
+.box .textbox h1{
+    font-size: 18px;
+    line-height: 24px;
+}
+.box .button{
+margin-top: 70px;
+position: relative;
+
+}
+.box .bt{
+    background: url(/이미지/hansot_btn_link.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 40px; 
+}
+.box .why{
+    position: absolute;
+    left: 30px;
+    top: 3px;
+}
+.box .bt:hover{
+    background-position: -20px 0;   
+    transition: 0.3s;
+}
+
+footer{
+    background-color: rgb(255, 191, 0);
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+footer ul{
+    margin-top: 30px;
+}
+footer .line3{
+    width: 900px;
+    margin: auto;
+    border-bottom: 1px solid #434343;
+    padding: 15px;
+}
+
+footer li{
+    display: inline;
+    padding: 20px;
+}
+footer p{
+    margin-top: 50px;
+}
